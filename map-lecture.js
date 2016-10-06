@@ -13,8 +13,7 @@ const map = function(data, _transformElm){
       const new_value = _transformElm(current);
       //note that const allows REASSIGNMENT here but const will *not* allow the variable to actually be changed, like if output = output + [ ]
       //push that into the OUTPUT array -- can do this all in one step, just doing it in two here for expression
-      output.push(new_value);
-    });
+      output.push(new_valu    });
 
     return output;
     // this is just passing a callback as an anonymous function
